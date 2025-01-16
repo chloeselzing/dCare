@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+overflow-x: hidden;
+}
+.banner {
+    background-image: url("../../public/landingbackground.svg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(0, 0, 0, 0);
+    background-attachment: fixed;
+  }
+  .executives {
+    background-image: url("../../public/ebackground.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(73, 65, 52);
+    background-attachment: fixed;
+  }
+  .contactbackground {
+    background-image: url("../../public/contact.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0);
+    background-attachment: fixed;
+  }
