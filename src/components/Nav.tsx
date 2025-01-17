@@ -33,7 +33,7 @@ const Nav = () => {
       className=" w-[100vw] h-[100px] grid grid-cols-3 items-center px-10 "
     >
       <Link href="/" className="navbar-brand  ">
-        {/* <Image src={logo} alt="logo" /> */}
+        <Image src={logo} alt="logo" className="w-[100px] h-[100px]" />
       </Link>
 
       <div className=" flex justify-end lg:grid lg:justify-center ">
@@ -50,10 +50,10 @@ const Nav = () => {
 
         <button
           id="menu-btn"
-          className="block hamburger md:hidden focus:outline-none"
+          className="block hamburger md:hidden focus:outline-none right-0"
           onClick={handleClick}
         >
-          <CiMenuBurger size="24" className="text-whiteBackground" />
+          <CiMenuBurger size="24" className="text-black" />
         </button>
       </div>
 
@@ -69,14 +69,14 @@ const Nav = () => {
           >
             <button
               id="menu-btn"
-              className="block hamburger md:hidden focus:outline-none relative right-0"
+              className="block hamburger md:hidden focus:outline-none relative right-0 "
               onClick={handleClose}
             >
-              <IoClose size={28} className="text-whiteBackground" />
+              <IoClose size={28} className="text-white" />
             </button>
 
             <div className="pt-12">
-              <div className="flex flex-col text-center items-center text-whiteBackground">
+              <div className="flex flex-col text-center items-center text-white">
                 {NavData.map((navLink, index) => (
                   <Components.CustomLink
                     key={index}

@@ -19,11 +19,11 @@ type Props = {};
 
 const Contact = (props: Props) => {
   return (
-    <div className="flex " id="contact">
-      <div className="w-1/3 bg-[#978361] flex content-center justify-center justify-items-center">
+    <div className="md:flex " id="contact">
+      <div className="md:w-1/3 hidden bg-[#978361] md:flex content-center justify-center justify-items-center">
         <Image src={contacta} alt="contact image" className="" />
       </div>
-      <div className="w-2/3 contactbackground gap-4 flex flex-col p-10 ">
+      <div className="md:w-2/3 contactbackground gap-4 flex flex-col p-10 justify-center items-center">
         <h3 className="text-black text-center text-[25px] font-medium">
           <span className="text-[#957866]">Contact</span> us
         </h3>
