@@ -9,8 +9,8 @@ type Props = {};
 
 const Gallery = (props: Props) => {
   return (
-    <section id="gallery" className="grid grid-cols-2 p-10">
-      <div>
+    <section id="gallery" className="grid md:grid-cols-2 p-10">
+      <div className="hidden md:block">
         {" "}
         {carouselData.map((carousel) => (
           <div key={carousel.id} className="mb-10">

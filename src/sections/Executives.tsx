@@ -20,7 +20,7 @@ const Executives = (props: Props) => {
             <p className=" italic">Executive Director</p>
           </div>
         </div>
-        <div className="grid grid-cols-2  gap-6 p-10">
+        <div className="grid md:grid-cols-2  gap-6 p-10 place-items-center">
           {ExecutiveData.map((executive) => (
             <div key={executive.id}>
               <ExecutiveCard
