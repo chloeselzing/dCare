@@ -30,7 +30,7 @@ const Nav = () => {
   return (
     <section
       id="nav"
-      className=" w-[100vw] h-[100px] grid grid-cols-3 items-center px-10 "
+      className=" w-[100vw] h-[100px] grid md:grid-cols-3 grid-cols-2 items-center px-10 "
     >
       <Link href="/" className="navbar-brand  ">
         <Image src={logo} alt="logo" className="w-[100px] h-[100px]" />
@@ -50,7 +50,7 @@ const Nav = () => {
 
         <button
           id="menu-btn"
-          className="block hamburger md:hidden focus:outline-none right-0"
+          className="block hamburger md:hidden focus:outline-none "
           onClick={handleClick}
         >
           <CiMenuBurger size="24" className="text-black" />

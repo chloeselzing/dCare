@@ -9,7 +9,7 @@ export const carouselData = [
     {
       id: 2,
       images: ["/gi1.png", "/gi2.png", "/gi3.png"],
-      title:'GISCOT WIDOWS 1-DAY CAPACITY BUILDING',
+      title:' WIDOWS CAPACITY BUILDING',
       text:"1-day capacity building workshop on resource mobilization or utilization for widows and giving of seed support, were D'Care for Humanity Centre served as a supporting partner with the Center for Equity Research and Policy Advancement, under the main partners Gender Initiative for Change and Social Transformation (GICSOT) in collaboration with the director and management of Crosby Apartments Nigeria Limited, it was indeed a great life transforming experience, changing the world one widow at a time",
     },
     {
