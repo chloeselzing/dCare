@@ -25,8 +25,10 @@ const Footer = (props: Props) => {
         </div>
         <div className="grid">
           <h4 className="text-[#4b4b4b]">FIND US</h4>
+          <p>Plot 17602, Opposite Mountain Greens Hotel Tudun Wada</p>
           <p>Jos</p>
-          <p>Everyday 10am to 8pm</p>
+          <p>We also work remotely</p>
+          <p>Everyday 8am to 6pm</p>
         </div>
       </div>
       <div className="flex justify-between text-[#4b4b4b] pt-[50px] text-[12px]">

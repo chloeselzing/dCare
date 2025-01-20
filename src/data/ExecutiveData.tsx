@@ -20,7 +20,7 @@ export const ExecutiveData = [
     id: 3,
     image:e3 ,
     name: "Dr.Nankling lamu",
-    position: "Mentorship and support lead",
+    position: "Mentorship and Support Lead",
   },
   {
     id: 4,
@@ -32,30 +32,30 @@ export const ExecutiveData = [
     id: 5,
     image: e5,
     name: "Peret Goar",
-    position: "Partnership and communications director",
+    position: "Partnership and Communications Director",
   },
   {
     id: 6,
     image: e6,
     name: "Dr.Plangsat Dayil",
-    position: "Gender speicalist",
+    position: "Gender Speicalist",
   },{
     id: 7,
     image: e7,
     name: "King-Karshak Duwong",
-    position: "Programs and project administrator",
+    position: "Programs and Project Administrator",
   }, 
   {
     id: 8,
     image: e8,
     name: "George Dashe",
-    position: "Media and communications manager",
+    position: "Media and Communications Manager",
   },
   {
     id: 9,
     image: e10,
     name: "Pannan Rengshwat",
-    position: "Monitoring and and evaluation/technical lead",
+    position: "Monitoring and Evaluation/Technical Lead",
   },
  
 ];

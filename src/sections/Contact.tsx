@@ -23,20 +23,20 @@ const Contact = (props: Props) => {
       <div className="md:w-1/3 hidden bg-[#978361] md:flex content-center justify-center justify-items-center">
         <Image src={contacta} alt="contact image" className="" />
       </div>
-      <div className="md:w-2/3 contactbackground gap-4 flex flex-col p-20 justify-center  ">
+      <div className="md:w-2/3 contactbackground gap-4 flex flex-col p-5 md:p-10 justify-center  ">
         <h3 className="text-black text-center text-[25px] font-medium">
           <span className="text-[#957866]">Contact</span> us
         </h3>
         <div className="flex gap-4 items-center ">
-          <Icon icon={<CiPhone className="text-[50px] text-white" />} />
+          <Icon icon={<CiPhone className="md:text-[50px] text-[30px] text-white" />} />
           <div>
             <p>Call/Whatsapp</p>
-            <Link href="tel:+23490659084380">090659084380 </Link> or
+            <Link href="https://wa.me/2349065984380">090659084380 </Link> or
             <Link href="tel:+2348110193889"> 08110193889</Link>
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <Icon icon={<CiMail className="text-[50px] text-white" />} />
+          <Icon icon={<CiMail className="md:text-[50px] text-[30px] text-white" />} />
           <div>
             <p>Send us a Mail</p>
             <Link href="mailto:dcareforhumanity@gmail.com">
@@ -45,7 +45,7 @@ const Contact = (props: Props) => {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <Icon icon={<IoBulbOutline className="text-[50px] text-white" />} />
+          <Icon icon={<IoBulbOutline className="md:text-[50px] text-[30px] text-white" />} />
           <div className=" ">
             <p>Find us on different platforms</p>
             <div className="flex gap-2">
