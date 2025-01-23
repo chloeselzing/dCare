@@ -25,7 +25,7 @@ export const carouselData = [
   },
   {
     id: 4,
-    images: ["/o1.png", "/o2.png", "/o3.png"],
+    images: ["/o1.png", "/o2.png"],
     title: "OUR LADYOF APOSLES HOSPITAL AND ORPHANAGE,ZAWAN",
     text: "We paid a visit to Our Lady of Apostles Hospital & Orphanage in Zawan, where we conducted a needs assessment to better understand the challenges faced by the children in their care. This outreach effort allowed us to identify areas where we can provide support and make a meaningful difference in the lives of these young ones.",
   },
